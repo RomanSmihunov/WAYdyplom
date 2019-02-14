@@ -1,0 +1,36 @@
+.merits {
+  padding-bottom: 80px;
+  padding-top: 100px;
+
+  &-item {
+    &__icon {
+      font-family: $light-font;
+      font-size: 50px;
+      color: #fff;
+      line-height: 86px;
+      width: 86px;
+      border-radius: 100px;
+      background: #102e62;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    &__title {
+      font-family: $light-font;
+      font-size: 24px;
+      color: #081d42;
+      margin-bottom: 15px;
+      text-align: center;
+
+      & span {
+        color: #b81c31;
+      }
+    }
+
+    &__text {
+      font-size: 14px;
+      color: #404048;
+      text-align: center;
+    }
+  }
+}

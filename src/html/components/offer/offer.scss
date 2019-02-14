@@ -1,0 +1,59 @@
+.offer {
+  margin-top: 100px;
+
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__subtitle {
+    font-size: 29px;
+    font-family: $light-font;
+    color: #081d42;
+    margin-bottom: 30px;
+  }
+
+  &__icons {
+    height: 46px;
+    background: rgba(255, 255, 255, 0.857);
+    border: 3px solid rgba(255, 255, 255, 0.619);
+    width: 165px;
+    border-radius: 4px;
+    box-sizing: content-box;
+    background-clip: padding-box;
+  }
+
+  &__icon {
+    display: block;
+    line-height: 26px;
+    width: 30px;
+    font-size: 17px;
+    text-align: center;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    &_facebook {
+      border: 2px solid #3d6ca8;
+    }
+
+    &_twitter {
+      border: 2px solid #43c9fd;
+    }
+
+    &_telegram-plane {
+      border: 2px solid #25a3d4;
+    }
+  }
+}
+
+/* 320-576px */
+@media screen and (max-width: 576px) {
+  .offer__title {
+    font-size: 45px;
+  }
+
+  .offer__subtitle {
+    font-size: 25px;
+  }
+}

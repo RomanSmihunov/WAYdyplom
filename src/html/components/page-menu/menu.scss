@@ -1,0 +1,9 @@
+.menu__link {
+  color: #3f4b60;
+  font-weight: 700;
+  font-size: 17px;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}

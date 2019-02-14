@@ -1,0 +1,45 @@
+.photo {
+  padding-top: 20px;
+  padding-bottom: 40px;
+
+  &__title {
+    margin-bottom: 44px;
+    color: $primary;
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 270px;
+  }
+
+  &__overlay {
+    transition: all 0.5s ease;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.64);
+    border: 7px solid #9a97a7;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  & i {
+    color: #fff;
+    font-size: 30px;
+  }
+
+  &__item {
+    position: relative;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

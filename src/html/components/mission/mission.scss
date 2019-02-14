@@ -1,0 +1,82 @@
+.mission {
+  padding-top: 40px;
+  padding-bottom: 45px;
+  background: url(../img/background.jpg) no-repeat center top / cover;
+
+  &__title {
+    color: #a9aeb8;
+    font-size: 23px;
+    margin-bottom: 16px;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 3px;
+      background: #6e798a;
+      margin-top: 10px;
+    }
+  }
+
+  &__text {
+    & p {
+      color: #d1d4d9;
+      font-size: 15px;
+    }
+
+    &_first {
+      margin-right: 30px;
+    }
+  }
+
+  &__btn {
+    display: block;
+    line-height: 40px;
+    width: 174px;
+    border: 2px solid #ced1d8;
+    font-family: $bold-font;
+    font-size: 16px;
+    color: #ced1d8;
+    text-align: center;
+    margin-top: 40px;
+  }
+}
+
+.news-item {
+  position: relative;
+  margin-bottom: 36px;
+
+  &__img {
+    width: 56px;
+    height: 55px;
+    margin-right: 12px;
+  }
+
+  &__title {
+    color: #d6d9de;
+    font-family: $bold-font;
+    font-size: 12.5px;
+    margin-bottom: 10px;
+    line-height: 1;
+  }
+
+  &__date {
+    color: #abb1bb;
+    font-family: $light-font;
+    font-size: 11px;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #6b768a;
+    position: absolute;
+    bottom: -10px;
+  }
+}
+
+/* 768-992px */
+@media screen and (max-width: 992px) {
+}

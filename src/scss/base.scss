@@ -1,0 +1,110 @@
+body {
+  font-family: $normal-font;
+  padding: 0;
+  letter-spacing: 0em;
+  margin: 0;
+  font-size: 14px;
+}
+
+div,
+p,
+form,
+input,
+a,
+span,
+button,
+ul,
+li {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4em;
+  margin-bottom: 1em;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $bold-font;
+  margin: 0;
+}
+
+h1 {
+  font-size: 58px;
+  color: #081d42;
+  text-align-last: left;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  color: $primary;
+}
+
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+a,
+button,
+input {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+input,
+input:hover,
+input:focus,
+input:active,
+button,
+button:hover,
+button:focus,
+button:active {
+  outline: none;
+}
+
+.navigation-wrapper {
+  height: 100px;
+  background-color: rgba(199, 199, 217, 0.53);
+  padding-top: 7px;
+  border-top: 5px solid #58647a;
+  border-bottom: 4px solid rgba(235, 238, 245, 0.86);
+}
+
+.logo {
+  display: block;
+}
+
+/* 576-768px */
+@media screen and (max-width: 768px) {
+  .logo {
+    transform: scale(0.8);
+    margin-left: -15px;
+  }
+}
+
+/* 320-576px */
+@media screen and (max-width: 576px) {
+  .logo {
+    transform: scale(0.6);
+    margin-left: -30px;
+  }
+}

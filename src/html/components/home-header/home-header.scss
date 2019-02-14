@@ -1,0 +1,19 @@
+.home-header {
+  background: #fafafb url(../img/megapolis.jpg) no-repeat center top/cover;
+  padding-bottom: 145px;
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    height: 16px;
+    background: rgba(255, 255, 255, 0.217);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+  }
+
+  & .navigation-wrapper {
+    border-bottom: 4px solid rgba(132, 140, 155, 0.05);
+  }
+}
